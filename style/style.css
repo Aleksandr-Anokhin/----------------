@@ -22,6 +22,12 @@ body {
     color: #fff;
     padding: 19px 0;
 }
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(0px 0px 0px 0px);
+}
 .header-wrap {
     display: flex;
     justify-content: space-between;
@@ -213,7 +219,7 @@ body {
     border: 1px solid #FF6A6A; width: 211px; height: 47px;
 }
 
-.aside {
+.advantages {
     background-color: #222224;
     color: #fff;
 }
