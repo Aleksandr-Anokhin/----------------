@@ -1,0 +1,419 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+}
+.wrap {
+    width: 1140px;
+    outline: 1px solid red;
+    margin: 0 auto;
+}
+.header {
+    background-color: #222222;
+    color: #fff;
+    padding: 19px 0;
+}
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo-site {
+    text-decoration: none;
+    color: transparent;
+    margin-right: 41px;
+}
+.search-button, .menu-site-button {
+    background-color: transparent;
+    border: none;
+}
+.account-link {
+    background-color: transparent;
+    border: #fff;
+    margin: 0 33px;
+}
+.basket-link {
+    background-color: transparent;
+    border: #fff;
+}
+.promo {
+    background-color: #F1E4E6;
+    min-height: 765px;
+}
+.brand-wrap {
+    height: 765px;
+    background-image: url(../img/the-man.png);
+    background-repeat: no-repeat;
+    background-position-x: -226px;
+    background-position-y: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.brand-title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 40px;
+    color: #222222;
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+    margin-right: 90px;
+}
+.brand-title-mini {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+}
+.brand-title-pink {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #F16D7F;
+}
+.content {
+    padding-top: 65px;
+    padding-bottom: 85px;
+}
+.categories-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section {
+    background-color: #c4c4c4;
+    width: 360px;
+    height: 260px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.women-categories {
+    background-image: url(../img/for-women.png);
+}
+.men-categories {
+    background-image: url(../img/for-men.png);
+}
+.kids-categories {
+    background-image: url(../img/for-kidss.png);
+}
+.accesories-cards {
+    margin-top: 20px;
+    width: 100%;
+    height: 180px;
+    background-image: url(../img/accesories.png);
+}
+.categories-sale {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.categories-name {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #F16D7F;
+}
+.content-heading {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #222222;
+}
+.content-miniText {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #9F9F9F;
+}
+
+.product-cards1 {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.product-cards2 {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.card_1, .card_4 {
+    margin-bottom: 30px;
+}
+.cards-img {
+    width: 360px;
+    height: 420px;
+}
+.heading_card-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+.mini_card-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+}
+.price {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+}
+.framed-text {
+    justify-content: center;
+}
+.text_in_frame {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    border: 1px solid #FF6A6A; width: 211px; height: 47px;
+}
+
+.aside {
+    background-color: #222224;
+    color: #fff;
+}
+.information {
+    display: flex;
+    justify-content: space-between;
+}
+.info-delivery {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo-del {
+    width: 45px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info-sales {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo-sales {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info-quality {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo-quality {
+    width: 47px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-info {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+}
+.delivery {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+}
+.sales {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+}
+.quality {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+}
+.meta {
+    background-image: url();
+}
+.subscribe-content {
+    display: flex;
+    justify-content: space-between;
+}
+.sub-foto{
+    /*position: absolute;*/
+    width: 1600px;
+    height: 448px;
+    left: 0px;
+    top: 0px;
+}
+.subscribe-info {
+    width: 359.45px;
+    height: 225px;
+    left: 230.29px;
+    top: 97px;
+}
+.sub-content {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+}
+.sub-content-italic {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+}
+.sub-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+}
+.sub-text-mini {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167.2%;
+    text-align: center;
+}
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+
+}
+.subscribe-form-field {
+    color: #000000;
+    padding: 10px;
+    border: none;
+    background-color: #E1E1E1;
+    border-radius: 10px 0 0 10px;
+}
+.subscribe-form-field::placeholder {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #222224;
+}
+.subscribe-form-button {
+    padding: 10px;
+    background-color: #F16D7F;
+    color: #fff;
+    border: none;
+    border-radius: 0 10px 10px 0;
+}
+.footer {
+    background-color: #222222;
+    color: #fff;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
+.logo-mini-1 {
+    width: 4px;
+    height: 10px;
+    background-color: #ffffff;
+    border:1px solid #242121; width: 31px; height: 32px; 
+}
+.logo-mini-2 {
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border:1px solid #242121; width: 31px; height: 32px; 
+}
+.logo-mini-3 {
+    width: 12px;
+    height: 16px;
+    background-color: #ffffff;
+    border:1px solid #242121; width: 31px; height: 32px; 
+}
+.logo-mini-4 {
+    width: 16px;
+    height: 13px;
+    background-color: #ffffff;
+    border:1px solid #242121; width: 31px; height: 32px; 
+}
