@@ -41,15 +41,25 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
+    margin-right: 5px;
 }
 .logo-site {
     text-decoration: none;
     color: transparent;
     margin-right: 41px;
 }
-.search-button, .menu-site-button {
+.header-button {
     background-color: transparent;
     border: none;
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+.header-button svg {
+    fill: #f8f8f8;
+}
+.header-button:hover svg {
+    fill: #F16D7F;
 }
 .account-link {
     background-color: transparent;
@@ -59,6 +69,20 @@ body {
 .basket-link {
     background-color: transparent;
     border: #fff;
+}
+.number-of-positions {
+    position: absolute;
+    top: 19px;
+    right: 379px;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F16D7F;
+    color: #fff;
+    font-size: 12px;
 }
 .promo {
     background-color: #F1E4E6;
@@ -237,6 +261,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+}
+.text_in_frame:hover {
+    color: #fff;
+    background-color: #F16D7F;
+}
+.text_in_frame .fa-caret-right {
+    margin-left: 10px;
 }
 
 .advantages {
@@ -449,6 +481,8 @@ body {
 .social-network {
     list-style: none;
     display: flex;
+    margin-top: 20px;
+    margin-right: 80px;
     padding: 0;
     gap: 8px;
 }
@@ -462,4 +496,8 @@ body {
     align-items: center;
     font-size: 16px;
     text-decoration: none;
+}
+.social-link:hover {
+    color: #fff;
+    background-color: #F16D7F;
 }
