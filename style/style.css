@@ -36,12 +36,13 @@ body {
 .header-left {
     display: flex;
     align-items: center;
+    padding-left: 130px;
 }
 .header-right {
     display: flex;
     align-items: center;
     gap: 20px;
-    margin-right: 5px;
+    margin-right: 130px;
 }
 .logo-site {
     text-decoration: none;
@@ -73,7 +74,7 @@ body {
 .number-of-positions {
     position: absolute;
     top: 19px;
-    right: 379px;
+    right: 500px;
     width: 19px;
     height: 19px;
     border-radius: 50%;
@@ -500,4 +501,129 @@ body {
 .social-link:hover {
     color: #fff;
     background-color: #F16D7F;
+}
+
+.catalog-page-wrap {
+    height: 148px;
+}
+.catalog-title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    display: flex;
+    padding-top: 59px;
+    padding-left: 130px;
+}
+.catalog-links {
+    display: flex;
+    margin-left: auto;
+    position: absolute;
+    right: 0px;
+    margin-right: 500px;
+}
+.catalog-menu {
+    display: flex;
+    
+}
+.catalog-menu-left {
+    display: inline-flex;
+    flex-direction: row;
+    padding-left: 130px;
+    padding-top: 51px;
+}
+.menu-filter {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding-right: 11px;
+}
+.catalog-menu-right {
+    margin-left: auto;
+    margin-right: auto;
+}
+.drop-down-menu {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    text-decoration: none;
+}
+
+.breadcrumbs {
+    display: flex;
+    margin-left: auto;
+    
+}
+.breadcrumbs-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+.breadcrumbs-item::before {
+    content: '/';
+    margin-right: 10px;
+}
+.breadcrumbs-link--current {
+    font-weight: bold;
+    color: #F16D7F;
+}
+.breadcrumbs-item:first-child::before {
+    display: none; /*Убираем разделитель для первого пункта*/
+}
+.breadcrumbs-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+    transition: 0.2s;
+}
+.breadcrumbs-link[href]:hover {
+    text-decoration: underline;
+    color: #F16D7F;
+}
+.active-paginator {
+    display: flex;
+    text-align: center;
+}
+.paginator {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 90px;
+    
+}
+.paginator-item {
+    display: inline;
+    padding: 5px;
+}
+.number-page {
+    display: inline;
+    padding: 0;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9F9F9F;
+    
+}
+.paginator-active-link {
+    color: #EF5B70;
+    text-decoration: none;
 }
