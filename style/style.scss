@@ -136,7 +136,7 @@ $shift: 50px;
  }
      /*Категории товаров на главной странице*/
  .content {
-     
+     margin-top: 65px;
      padding-bottom: 95px;
  }
  .content-text {
@@ -204,25 +204,20 @@ $shift: 50px;
      line-height: 17px;
      text-align: center;
      color: #9F9F9F;
+     margin-bottom: 18px;
  }
      /*Карточки продуктов*/
- .product-cards1 {
+ .product-cards {
      display: flex;
+     flex-wrap: wrap;
      justify-content: space-between;
      column-gap: 30px;
      row-gap: 30px;
-     margin-top: 48px;
+     margin-top: 30px;     
+ }
+ .card_1, .card_2, .card_3, .card_4,
+  .card_5, .card_6, .card_7, .card_8, .card_9 {
      
- }
- .product-cards2 {
-     display: flex;
-     justify-content: space-between;
-     column-gap: 30px;
-     row-gap: 30px;
-     margin-bottom: 30px;
- }
- .card_1, .card_2, .card_3, .card_4, .card_5, .card_6 {
-     margin-bottom: 30px;
      background-color: #F8F8F8;
  }
  .cards-img {
@@ -261,6 +256,7 @@ $shift: 50px;
      /*Кнопка под карточками на гл.стр.*/
  .framed-text {
      margin: 0 auto;
+    margin-top: 48px;
      display: flex;
      justify-content: center;
  }
@@ -634,13 +630,13 @@ $shift: 50px;
         color: $main-color;
     }
  }
- 
- 
+  
     /*Пагинатор*/
  .active-paginator {
      display: flex;
      margin-left: auto;
      margin-right: auto;
+     margin-top: 48px;
      border: 1px solid #ebebeb; width: 283px; height: 43px;
      border-radius: 3px 3px 3px 3px; 
  }

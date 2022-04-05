@@ -184,6 +184,7 @@ body {
 
 /*Категории товаров на главной странице*/
 .content {
+  margin-top: 65px;
   padding-bottom: 95px;
 }
 
@@ -274,37 +275,27 @@ body {
   line-height: 17px;
   text-align: center;
   color: #9F9F9F;
+  margin-bottom: 18px;
 }
 
 /*Карточки продуктов*/
-.product-cards1 {
+.product-cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   -webkit-column-gap: 30px;
           column-gap: 30px;
   row-gap: 30px;
-  margin-top: 48px;
+  margin-top: 30px;
 }
 
-.product-cards2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-column-gap: 30px;
-          column-gap: 30px;
-  row-gap: 30px;
-  margin-bottom: 30px;
-}
-
-.card_1, .card_2, .card_3, .card_4, .card_5, .card_6 {
-  margin-bottom: 30px;
+.card_1, .card_2, .card_3, .card_4,
+.card_5, .card_6, .card_7, .card_8, .card_9 {
   background-color: #F8F8F8;
 }
 
@@ -348,6 +339,7 @@ body {
 /*Кнопка под карточками на гл.стр.*/
 .framed-text {
   margin: 0 auto;
+  margin-top: 48px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -927,6 +919,7 @@ body {
   display: flex;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 48px;
   border: 1px solid #ebebeb;
   width: 283px;
   height: 43px;
