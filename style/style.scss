@@ -54,13 +54,12 @@ $shift: 50px;
      color: transparent;
      margin-right: 41px;
  }
- .header-button {
+ .header-search-icon {
      background-color: transparent;
      border: none;
      text-decoration: none;
-     color: inherit;
-     display: inline-block;
-     transition: 3s;
+     color: inherit;     
+     transition: 0.5s;
      
         & svg {
             fill: #f8f8f8;
@@ -69,24 +68,55 @@ $shift: 50px;
             fill: $main-color;
         }
  }
- 
+ .header-menu-icon {
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    transition: 0.5s;
+    
+       & svg {
+           fill: #f8f8f8;
+       }
+       &:hover svg {
+           fill: $main-color;
+       }
+ }
  
  .account-link {
      background-color: transparent;
-     border: #fff;
+     border: none;
+     text-decoration: none;
+     color: inherit;
+     display: inline-block;
      margin: 0 33px;
-     transition: 3s;
+     transition: 0.5s;
+
+        & svg {
+            fill: #f8f8f8;
+        }
+        &:hover svg {
+            fill: $main-color;
+        }
  }
  .basket-link {
      position: relative;
      margin-right: 5px;
      background-color: transparent;
      border: #fff;
-     transition: 3s;
+     transition: 0.5s;
+
+        & svg {
+            fill: #f8f8f8;
+        }
+        &:hover svg {
+            fill: $main-color;
+        }
  }
  .number-of-positions {
     position: absolute;
-    top: -25px;
+    top: -9px;
     right: -5px;
     width: 19px;
     height: 19px;
@@ -839,10 +869,13 @@ $shift: 50px;
         }
         &:hover {
             color:#f8f8f8;
-            background-color: $main-font-size;
+            background-color: $main-color;
         }
         &:hover svg {
             fill:#ebebeb
+        }
+        &:hover span {
+            color:#f8f8f8;
         }
 }
 
@@ -855,13 +888,7 @@ $shift: 50px;
     color: $main-color;
     text-align: center;    
     text-decoration: none;
-    padding-left: 23px;
-    transition: 0.5s;
-
-        &:hover {
-            color:#f8f8f8;
-            background-color: $main-font-size;
-        }
+    padding-left: 23px;      
 }
  .collection-name {
     font-family: 'Lato';

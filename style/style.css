@@ -79,30 +79,58 @@ body {
   margin-right: 41px;
 }
 
-.header-button {
+.header-search-icon {
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.header-search-icon svg {
+  fill: #f8f8f8;
+}
+
+.header-search-icon:hover svg {
+  fill: #F16D7F;
+}
+
+.header-menu-icon {
   background-color: transparent;
   border: none;
   text-decoration: none;
   color: inherit;
   display: inline-block;
-  -webkit-transition: 3s;
-  transition: 3s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
-.header-button svg {
+.header-menu-icon svg {
   fill: #f8f8f8;
 }
 
-.header-button:hover svg {
+.header-menu-icon:hover svg {
   fill: #F16D7F;
 }
 
 .account-link {
   background-color: transparent;
-  border: #fff;
+  border: none;
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
   margin: 0 33px;
-  -webkit-transition: 3s;
-  transition: 3s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.account-link svg {
+  fill: #f8f8f8;
+}
+
+.account-link:hover svg {
+  fill: #F16D7F;
 }
 
 .basket-link {
@@ -110,13 +138,21 @@ body {
   margin-right: 5px;
   background-color: transparent;
   border: #fff;
-  -webkit-transition: 3s;
-  transition: 3s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.basket-link svg {
+  fill: #f8f8f8;
+}
+
+.basket-link:hover svg {
+  fill: #F16D7F;
 }
 
 .number-of-positions {
   position: absolute;
-  top: -25px;
+  top: -9px;
   right: -5px;
   width: 19px;
   height: 19px;
@@ -1195,11 +1231,15 @@ body {
 
 .add_to_cart_button:hover {
   color: #f8f8f8;
-  background-color: 14px;
+  background-color: #F16D7F;
 }
 
 .add_to_cart_button:hover svg {
   fill: #ebebeb;
+}
+
+.add_to_cart_button:hover span {
+  color: #f8f8f8;
 }
 
 .text_to_cart_button {
@@ -1212,13 +1252,6 @@ body {
   text-align: center;
   text-decoration: none;
   padding-left: 23px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.text_to_cart_button:hover {
-  color: #f8f8f8;
-  background-color: 14px;
 }
 
 .collection-name {
