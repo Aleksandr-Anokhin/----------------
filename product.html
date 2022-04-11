@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="style/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Roboto&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/e1188a73eb.js" crossorigin="anonymous"></script>
     </head>
 <body>
@@ -98,15 +98,51 @@
             <h2 class="cost">$561</h2>
             <img class="grey-line" src="img/grey_line.png" alt="grey_line">
             <div class="product_menu">
-                <a href="#" target="_blank" class="drop-down-menu">CHOOSE COLOR
-                    <i class="fa fa-duotone fa-angle-down"></i>    
-                </a>
-                <a href="#" target="_blank" class="drop-down-menu">CHOOSE SIZE
-                    <i class="fa fa-duotone fa-angle-down"></i>   
-                </a>
-                <a href="#" target="_blank" class="drop-down-menu">QUANTITY
-                    <i class="fa fa-duotone fa-angle-down"></i>  
-                </a> 
+                <div class="dropdown">
+                    <span href="#" target="_blank" class="drop-down-menu">CHOOSE COLOR
+                        <i class="fa fa-duotone fa-angle-down"></i>    
+                    </span>
+                    <div class="dropdown-content">
+                        <input type="checkbox" class="sort" id="vehicle1" name="vehicle1" value="XS">
+                        <label for="vehicle1" class="sort-text">XS</label><br>
+                        <input type="checkbox" class="sort" id="vehicle2" name="vehicle2" value="S">
+                        <label for="vehicle2" class="sort-text">S</label><br>
+                        <input type="checkbox" class="sort" id="vehicle3" name="vehicle3" value="M">
+                        <label for="vehicle3" class="sort-text">M</label><br>
+                        <input type="checkbox" class="sort" id="vehicle4" name="vehicle4" value="L">
+                        <label for="vehicle4" class="sort-text">L</label><br>
+                    </div>
+                </div>
+                <div class="dropdown">   
+                    <span href="#" target="_blank" class="drop-down-menu">CHOOSE SIZE
+                        <i class="fa fa-duotone fa-angle-down"></i>   
+                    </span>
+                    <div class="dropdown-content">
+                        <input type="checkbox" class="sort" id="vehicle1" name="vehicle1" value="XS">
+                        <label for="vehicle1" class="sort-text">XS</label><br>
+                        <input type="checkbox" class="sort" id="vehicle2" name="vehicle2" value="S">
+                        <label for="vehicle2" class="sort-text">S</label><br>
+                        <input type="checkbox" class="sort" id="vehicle3" name="vehicle3" value="M">
+                        <label for="vehicle3" class="sort-text">M</label><br>
+                        <input type="checkbox" class="sort" id="vehicle4" name="vehicle4" value="L">
+                        <label for="vehicle4" class="sort-text">L</label><br>
+                    </div>
+                </div>
+                <div class="dropdown">    
+                    <span href="#" target="_blank" class="drop-down-menu">QUANTITY
+                        <i class="fa fa-duotone fa-angle-down"></i>  
+                    </span>
+                    <div class="dropdown-content">
+                        <input type="checkbox" class="sort" id="vehicle1" name="vehicle1" value="XS">
+                        <label for="vehicle1" class="sort-text">XS</label><br>
+                        <input type="checkbox" class="sort" id="vehicle2" name="vehicle2" value="S">
+                        <label for="vehicle2" class="sort-text">S</label><br>
+                        <input type="checkbox" class="sort" id="vehicle3" name="vehicle3" value="M">
+                        <label for="vehicle3" class="sort-text">M</label><br>
+                        <input type="checkbox" class="sort" id="vehicle4" name="vehicle4" value="L">
+                        <label for="vehicle4" class="sort-text">L</label><br>
+                    </div>
+                </div>  
             </div> 
             <button class="add_to_cart_button">
                 <svg width="26" height="24" viewBox="0 0 32 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -121,6 +157,12 @@
             <h2 class="hidden">Карточки продуктов</h2>
             <section class="product-cards"> 
                 <section class="card_1">
+                    <div class="product-overlay">
+                        <button class="btn-add">
+                            <img class="btn-add-icon" src="img/logo-basket.svg" alt="logo-basket">
+                            <span class="btn-add-text">Add to Cart</span>
+                        </button>
+                    </div>
                     <img class="cards-img" src="img/Card_4.png" alt="Card_1">
                     <h3 class="heading_card-text">ELLERY X M'O CAPSULE</h3>
                     <p class="mini_card-text">Known for her sculptural takes on
@@ -130,6 +172,12 @@
                     <p class="price">$52.00</p>   
                 </section>
                 <section class="card_2">
+                    <div class="product-overlay">
+                        <button class="btn-add">
+                            <img class="btn-add-icon" src="img/logo-basket.svg" alt="logo-basket">
+                            <span class="btn-add-text">Add to Cart</span>
+                        </button>
+                    </div>
                     <img class="cards-img" src="img/Card_3.png" alt="Card_2_2">
                     <h3 class="heading_card-text">ELLERY X M'O CAPSULE</h3>
                     <p class="mini_card-text">Known for her sculptural takes on
@@ -139,6 +187,12 @@
                     <p class="price">$52.00</p>     
                 </section>
                 <section class="card_3">
+                    <div class="product-overlay">
+                        <button class="btn-add">
+                            <img class="btn-add-icon" src="img/logo-basket.svg" alt="logo-basket">
+                            <span class="btn-add-text">Add to Cart</span>
+                        </button>
+                    </div>
                     <img class="cards-img" src="img/Card_6.png" alt="Card_3"> 
                     <h3 class="heading_card-text">ELLERY X M'O CAPSULE</h3>
                     <p class="mini_card-text">Known for her sculptural takes on
