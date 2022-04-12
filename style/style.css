@@ -262,6 +262,12 @@ body {
   line-height: 17px;
   color: #6F6E6E;
   text-decoration: none;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.submenu-link:hover {
+  color: #F16D7F;
 }
 
 /*Розовый блок на главной странице*/
