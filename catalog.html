@@ -43,7 +43,43 @@
                         </svg>
                         <span class="number-of-positions">3</span>
                     </a>
-                </nav>        
+                </nav> 
+                <h2 class="hidden">Навигационное меню</h2>
+                <nav class="main-nav">  <!-- main-nav--close-->
+                    <div class="main-nav-box">
+                        <button class="main-nav-close">X</button>
+                        <p class="main-nav-title">MENU</p>
+                        <ul class="main-nav-list">
+                            <li class="main-nav-item"><a href="catalog.html" class="main-nav-link">MAN</a>
+                                <ul class="submenu-list">
+                                    <li class="submenu-item"><a href="product.html" class="submenu-link">Accessories</a></li>
+                                    <li class="submenu-item"><a href="product.html" class="submenu-link">Bags</a></li>
+                                    <li class="submenu-item"><a href="product.html" class="submenu-link">Denim</a></li>
+                                    <li class="submenu-item"><a href="product.html" class="submenu-link">T-Shirts</a></li>
+                                </ul>
+                            </li>
+                            <li class="main-nav-item"><a href="catalog.html" class="main-nav-link">WOMAN</a>
+                                <ul class="submenu-list">
+                                    <li class="submenu-item"><a href="product.html" class="submenu-link">Accessories</a></li>
+                                    <li class="submenu-item"><a href="product.html" class="submenu-link">Jackets & Coats</a></li>
+                                    <li class="submenu-item"><a href="product.html" class="submenu-link">Polos</a></li>
+                                    <li class="submenu-item"><a href="product.html" class="submenu-link">T-Shirts</a></li>
+                                    <li class="submenu-item"><a href="product.html" class="submenu-link">Shirts</a></li>
+                                </ul>
+                            </li>  
+                            <li class="main-nav-item"><a href="catalog.html" class="main-nav-link">KIDS</a>
+                                <ul class="submenu-list">
+                                    <li class="submenu-item"><a href="product.html" class="submenu-link">Accessories</a></li>
+                                    <li class="submenu-item"><a href="product.html" class="submenu-link">Jackets & Coats</a></li>
+                                    <li class="submenu-item"><a href="product.html" class="submenu-link">Polos</a></li>                                    
+                                    <li class="submenu-item"><a href="product.html" class="submenu-link">T-Shirts</a></li>
+                                    <li class="submenu-item"><a href="product.html" class="submenu-link">Shirts</a></li>
+                                    <li class="submenu-item"><a href="product.html" class="submenu-link">Bags</a></li>
+                                </ul>
+                            </li>      
+                        </ul>
+                    </div>
+                </nav>                  
             </div>         
         </div>              
     </header>                     
@@ -71,7 +107,8 @@
     <section class="catalog-menu"> 
         <h2 class="hidden">Меню каталога</h2>
         <div class="wrap catalog-menu-wrap">
-            <details class="catalog-menu-left">
+            <h2 class="hidden">Меню фильтр</h2>
+            <details class="catalog-menu-left">                
                 <summary class="menu-filter">FILTER
                     <svg width="15" height="10" viewBox="0 0 15 10"  xmlns="http://www.w3.org/2000/svg">
                         <path d="M0.833333 10H4.16667C4.625 10 5 9.625 5 9.16667C5 8.70833 4.625 8.33333 4.16667 8.33333H0.833333C0.375 8.33333 0 8.70833 0 9.16667C0 9.625 0.375 10 0.833333 10ZM0 0.833333C0 1.29167 0.375 1.66667 0.833333 1.66667H14.1667C14.625 1.66667 15 1.29167 15 0.833333C15 0.375 14.625 0 14.1667 0H0.833333C0.375 0 0 0.375 0 0.833333ZM0.833333 5.83333H9.16667C9.625 5.83333 10 5.45833 10 5C10 4.54167 9.625 4.16667 9.16667 4.16667H0.833333C0.375 4.16667 0 4.54167 0 5C0 5.45833 0.375 5.83333 0.833333 5.83333Z"/>
@@ -129,49 +166,50 @@
                 </div>    
             </details>
             <div class="catalog-menu-right">
+                <h2 class="hidden">Сортировка товаров по параметрам</h2>
                 <div class="dropdown">
-                    <span href="#" target="_blank" class="drop-down-menu">TRENDING NOW
+                    <span class="drop-down-menu">TRENDING NOW
                         <i class="fa fa-duotone fa-angle-down"></i>    
                     </span>
                     <div class="dropdown-content">
-                        <input type="checkbox" class="sort" id="vehicle1" name="vehicle1" value="XS">
-                        <label for="vehicle1" class="sort-text">XS</label><br>
-                        <input type="checkbox" class="sort" id="vehicle2" name="vehicle2" value="S">
-                        <label for="vehicle2" class="sort-text">S</label><br>
-                        <input type="checkbox" class="sort" id="vehicle3" name="vehicle3" value="M">
-                        <label for="vehicle3" class="sort-text">M</label><br>
-                        <input type="checkbox" class="sort" id="vehicle4" name="vehicle4" value="L">
-                        <label for="vehicle4" class="sort-text">L</label><br>
+                        <input type="checkbox" class="sort" value="XS">
+                        <label class="sort-text">XS</label><br>
+                        <input type="checkbox" class="sort" value="S">
+                        <label class="sort-text">S</label><br>
+                        <input type="checkbox" class="sort" value="M">
+                        <label class="sort-text">M</label><br>
+                        <input type="checkbox" class="sort" value="L">
+                        <label class="sort-text">L</label><br>
                     </div>    
                 </div>
                 <div class="dropdown"> 
-                    <span href="#" target="_blank" class="drop-down-menu">SIZE
+                    <span class="drop-down-menu">SIZE
                         <i class="fa fa-duotone fa-angle-down"></i>   
                     </span>
                     <div class="dropdown-content">
-                        <input type="checkbox" class="sort" id="vehicle1" name="vehicle1" value="XS">
-                        <label for="vehicle1" class="sort-text">XS</label><br>
-                        <input type="checkbox" class="sort" id="vehicle2" name="vehicle2" value="S">
-                        <label for="vehicle2" class="sort-text">S</label><br>
-                        <input type="checkbox" class="sort" id="vehicle3" name="vehicle3" value="M">
-                        <label for="vehicle3" class="sort-text">M</label><br>
-                        <input type="checkbox" class="sort" id="vehicle4" name="vehicle4" value="L">
-                        <label for="vehicle4" class="sort-text">L</label><br>
+                        <input type="checkbox" class="sort" value="XS">
+                        <label class="sort-text">XS</label><br>
+                        <input type="checkbox" class="sort" value="S">
+                        <label class="sort-text">S</label><br>
+                        <input type="checkbox" class="sort" value="M">
+                        <label class="sort-text">M</label><br>
+                        <input type="checkbox" class="sort" value="L">
+                        <label class="sort-text">L</label><br>
                     </div>    
                 </div>
                 <div class="dropdown">   
-                    <span href="#" target="_blank" class="drop-down-menu">PRICE
+                    <span class="drop-down-menu">PRICE
                         <i class="fa fa-duotone fa-angle-down"></i>  
                     </span>
                     <div class="dropdown-content">
-                        <input type="checkbox" class="sort" id="vehicle1" name="vehicle1" value="XS">
-                        <label for="vehicle1" class="sort-text">XS</label><br>
-                        <input type="checkbox" class="sort" id="vehicle2" name="vehicle2" value="S">
-                        <label for="vehicle2" class="sort-text">S</label><br>
-                        <input type="checkbox" class="sort" id="vehicle3" name="vehicle3" value="M">
-                        <label for="vehicle3" class="sort-text">M</label><br>
-                        <input type="checkbox" class="sort" id="vehicle4" name="vehicle4" value="L">
-                        <label for="vehicle4" class="sort-text">L</label><br>
+                        <input type="checkbox" class="sort" value="XS">
+                        <label class="sort-text">XS</label><br>
+                        <input type="checkbox" class="sort" value="S">
+                        <label class="sort-text">S</label><br>
+                        <input type="checkbox" class="sort" value="M">
+                        <label class="sort-text">M</label><br>
+                        <input type="checkbox" class="sort" value="L">
+                        <label class="sort-text">L</label><br>
                     </div>
                 </div>     
             </div>        

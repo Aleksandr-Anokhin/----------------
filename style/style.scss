@@ -205,7 +205,12 @@ $shift: 50px;
     font-size: $main-font-size;
     line-height: 17px;
     color: #6F6E6E;
-    text-decoration: none;    
+    text-decoration: none;
+    transition: color 0.3s;
+    
+        &:hover {
+            color:$main-color
+        }
 }
 
      /*Розовый блок на главной странице*/
@@ -826,7 +831,7 @@ $shift: 50px;
     z-index: 1;
     left: 65%;
     transform: translateX(-50%);    
- }
+ } 
  .sort {
      width: 12px;
      height: 12px;
