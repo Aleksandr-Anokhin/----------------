@@ -171,6 +171,99 @@ body {
   font-size: 12px;
 }
 
+/*Блок большого меню*/
+.main-nav {
+  width: 232px;
+  height: 760px;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #FFFFFF;
+  -webkit-box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+          box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  position: absolute;
+  right: 0;
+  top: 79px;
+  color: #000000;
+  -webkit-transform-origin: top right;
+  transform-origin: top right;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/*.main-nav--open {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+}    */
+.main-nav--close {
+  display: none;
+}
+
+.main-nav-box {
+  position: relative;
+}
+
+.main-nav-close {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: transparent;
+  border: none;
+  color: #6F6E6E;
+  font-size: 14px;
+  float: right;
+}
+
+.main-nav-title {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+.main-nav-list {
+  padding: 12px;
+  list-style-type: none;
+}
+
+.main-nav-item {
+  margin-top: 10px;
+}
+
+.main-nav-link {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #F16D7F;
+  text-decoration: none;
+}
+
+.submenu-list {
+  list-style-type: none;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.submenu-item {
+  margin-top: 10px;
+}
+
+.submenu-link {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+  text-decoration: none;
+}
+
 /*Розовый блок на главной странице*/
 .promo {
   background-color: #F1E4E6;
@@ -1055,6 +1148,9 @@ body {
   -webkit-box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
           box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
   z-index: 1;
+  left: 65%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .sort {
