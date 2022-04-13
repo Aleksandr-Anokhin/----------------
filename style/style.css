@@ -479,14 +479,14 @@ body {
   margin-right: 12px;
 }
 
-.card_1, .card_2, .card_3, .card_4,
+.card_1, .card_2, .card_3, .card_3_1, .card_4,
 .card_5, .card_6, .card_7, .card_8, .card_9 {
   background-color: #F8F8F8;
   position: relative;
   width: 360px;
 }
 
-.card_1:hover .product-overlay, .card_2:hover .product-overlay, .card_3:hover .product-overlay, .card_4:hover .product-overlay,
+.card_1:hover .product-overlay, .card_2:hover .product-overlay, .card_3:hover .product-overlay, .card_3_1:hover .product-overlay, .card_4:hover .product-overlay,
 .card_5:hover .product-overlay, .card_6:hover .product-overlay, .card_7:hover .product-overlay, .card_8:hover .product-overlay, .card_9:hover .product-overlay {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -821,7 +821,7 @@ body {
   background-color: #E1E1E1;
   border-radius: 15px 0 0 15px;
   margin-top: 20px;
-  height: 40px;
+  height: 49px;
 }
 
 .subscribe-form-field::-webkit-input-placeholder {
@@ -1547,5 +1547,166 @@ body {
           justify-content: center;
   /*margin-left: auto;
     margin-right: auto;*/
+}
+
+/* tablet */
+@media (max-width: 1180px) {
+  .wrap {
+    width: 770px;
+    outline: 1px solid green;
+  }
+  .main-nav {
+    display: none;
+  }
+  .header-left {
+    margin-left: 32px;
+  }
+  .header-right {
+    margin-right: 32px;
+  }
+  .promo {
+    min-height: 368px;
+  }
+  .brand-wrap {
+    height: 368px;
+    background-size: 50%;
+    background-position-x: 0;
+  }
+  .brand-title {
+    margin-right: 30px;
+    font-size: 44px;
+  }
+  .brand-title-mini {
+    font-size: 24px;
+  }
+  .brand-title-pink {
+    font-size: 27px;
+  }
+  .content {
+    margin-top: 20px;
+    padding-bottom: 65px;
+  }
+  .section {
+    width: 232px;
+    height: 168px;
+    background-size: 100%;
+  }
+  .accesories-cards {
+    width: 100%;
+    height: 116px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+  .women-categories {
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  .men-categories {
+    margin-right: 20px;
+  }
+  .kids-categories {
+    margin-right: 10px;
+  }
+  .content-heading {
+    margin-top: 40px;
+  }
+  .product-cards {
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 10px;
+  }
+  .framed-text {
+    margin-top: 33px;
+  }
+  .advantages {
+    height: 610px;
+  }
+  .information {
+    height: 610px;
+    display: block;
+  }
+  .info-delivery {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+  }
+  .info-sales {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+  }
+  .info-quality {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+  }
+  .meta {
+    background: contain;
+    height: 693px;
+  }
+  .subscribe-content {
+    height: 693px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .subscribe-info {
+    margin-left: 30px;
+  }
+  .subscribe {
+    margin-left: 180px;
+    margin-bottom: 140px;
+  }
+  .footer-copyright {
+    margin-left: 32px;
+  }
+  .social-network {
+    margin-right: 32px;
+  }
+  .catalog-title {
+    margin-left: 16px;
+  }
+  .catalog-links {
+    margin-right: 16px;
+  }
+  .catalog-menu-left {
+    margin-top: 24px;
+  }
+  .catalog-menu-right {
+    margin-right: 16px;
+    margin-top: 24px;
+  }
+  .card_9:nth-child(9) {
+    display: none;
+  }
+  .active-paginator {
+    margin-top: 40px;
+  }
+  .product-presentation {
+    min-height: 624px;
+  }
+  .product-description {
+    min-width: 768px;
+  }
+  .product-description-wrap {
+    margin: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .collection-name {
+    margin-top: 65px;
+  }
+  .card_3_1:nth-child(3) {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
