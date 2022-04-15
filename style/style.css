@@ -1549,6 +1549,56 @@ body {
     margin-right: auto;*/
 }
 
+.selected-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 96px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.selected_cart_1 {
+  width: 652px;
+  height: 306px;
+  margin-bottom: 40px;
+  -webkit-filter: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13));
+          filter: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13));
+}
+
+.selected_cart_2 {
+  width: 652px;
+  height: 306px;
+  margin-bottom: 40px;
+  -webkit-filter: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13));
+          filter: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13));
+}
+
+.foto-product {
+  width: 262px;
+  height: 306px;
+}
+
+.cart_text_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.foto-product-name {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #222222;
+}
+
 /* tablet */
 @media (max-width: 1180px) {
   .wrap {
@@ -1642,7 +1692,7 @@ body {
     margin-top: 48px;
   }
   .meta {
-    background: contain;
+    background-image: background-position-x;
     height: 693px;
   }
   .subscribe-content {
@@ -1697,10 +1747,12 @@ body {
     min-width: 768px;
   }
   .product-description-wrap {
-    margin: 0;
+    margin-left: 47px;
+    margin-right: auto;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-top: 0;
   }
   .collection-name {
     margin-top: 65px;
@@ -1830,7 +1882,7 @@ body {
     height: 19px;
   }
   .catalog-menu-left {
-    width: 60px;
+    width: 128px;
     margin-top: 20px;
   }
   .catalog-menu-right {
@@ -1840,7 +1892,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     margin-top: 10px;
   }
   .product-presentation {
@@ -1852,10 +1904,17 @@ body {
   .product-description-wrap {
     min-height: 600px;
     width: 375px;
+    margin-left: 149px;
+    margin-right: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 0;
   }
   .product_story {
-    margin-left: 24px;
-    margin-right: 24px;
+    width: 100%;
+    height: auto;
+    margin-top: 32px;
   }
   .product_story_text {
     text-align: center;
