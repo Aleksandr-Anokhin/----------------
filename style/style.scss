@@ -39,6 +39,7 @@ $shift: 50px;
      display: flex;
      justify-content: space-between;
      align-items: flex-end;
+     position: relative;
  }
  .header-left {
     display: flex;
@@ -216,6 +217,37 @@ $shift: 50px;
             color:$main-color
         }
 }
+     /*Меню корзины*/
+.basket {
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    top: 37px;
+    background: white;
+    padding: 10px;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    font-size: $main-font-size;
+}
+.basketRow {
+    display: flex;    
+    gap: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 10px;    
+}
+
+.basketHeader {
+    font-weight: bold;    
+}
+.basket_menu {
+    font-size: $main-font-size;
+}
+
+.basketTotal {
+    font-weight: bold;
+    text-align: right;
+}     
 
      /*Розовый блок на главной странице*/
  .promo {
