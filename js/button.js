@@ -1,23 +1,13 @@
-/**
- * Функция назначает обработку клика на все кнопки "Add to cart".
- */
- function addEventListenersForAddToCartButtons() {
-    const addToCartBtns = document.querySelectorAll('button[Id]');
-    addToCartBtns.forEach(function (button) {
-        button.addEventListener('click', addedProductHandler);
-    })
 
-}
+let amountsProduct = document.querySelector('.number-of-positions');
+const addToCartBtns = document.querySelectorAll('.btn-add');
 
-/**
- * Функция-обработчик события клика по кнопке "Add to cart".
- * @param {MouseEvent} event
- */
+amountsProduct.textContent = 0;
+
+addToCartBtns.forEach((btn) => {
+    btn.addEventListener('click', addedProductHandler);
+});
+
 function addedProductHandler(event) {
-    const productId = event.currentTarget.getAttribute('Id');
-    addProductIntoBasket(productId);
-    /*console.log(productId);*/
+    amountsProduct.textContent++;
 }
-
-
-addEventListenersForAddToCartButtons();
