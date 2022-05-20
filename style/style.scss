@@ -229,6 +229,9 @@ $shift: 50px;
     border-radius: 3px;
     font-size: $main-font-size;
 }
+.hidden {
+    display: none;
+}
 .basketRow {
     display: flex;    
     gap: 10px;
